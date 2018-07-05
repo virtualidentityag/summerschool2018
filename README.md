@@ -29,7 +29,7 @@ Feel free to implement your application page any way you like, using HTML, CSS a
 3. Make a pull request with your application folder.
 We will merge your pull request as soon as we receive your CV.
 
-Please send your application until __July 7th 2018.__
+Please send your application until __July 18th 2018__.
 
 We will get in touch with you via e-mail until __July 21st 2018__ to confirm your participation.
 
