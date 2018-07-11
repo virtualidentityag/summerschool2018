@@ -2,7 +2,7 @@
 Find all information you need on how to apply for the VI summer school 2018
 
 ## Where & when?
-The Coding Summer School starts on __Monday, July 30th to Friday, August 11th__ at Virtual Identity (Isarwinkel 16 in Munich). This is a full-time program, which means you will have to commit for the whole 2 weeks.
+The Coding Summer School starts on __Monday, August 27th to Friday, September 7th__ at Virtual Identity (Isarwinkel 16 in Munich). This is a full-time program, which means you will have to commit for the whole 2 weeks.
 
 ## Who is Virtual Identity?
 Virtual Identity is a digital service design company. Since 1995, we help our customers to utilize digital technologies. Today we are 200 digital experts working in offices in Freiburg, Munich, Vienna and Porto.
