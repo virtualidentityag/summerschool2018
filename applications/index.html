@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Salomon Sum18</title>
+          <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,400italic,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+        
+        <style>
+            
+        body{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            margin-top: 3rem;
+
+        }
+        
+        p {
+            padding-bottom: 1rem;
+            margin: 0;
+            font-weight: 300;
+        }
+            
+        .center-div
+        {
+          margin: 0 auto;
+          max-width: 700px;
+          height: 100px;
+        }
+            
+         a {
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+            h3{
+                color: #aaa;
+                font-style: italic;
+            }
+        
+            .facts{
+                list-style-type: none;
+            }
+
+      /* NAVIGATION */
+nav {
+  margin: 0 auto;
+  background: #fff;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #aaa;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+
+/* stroke */
+nav.stroke ul li a{
+  position: relative;
+}
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
+}
+
+nav.fill ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+nav.fill ul li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+        </style>
+	</head>
+	<body>
+    
+    <div class="center-div">
+        <nav class="stroke">
+            <ul>
+                <li><a href="#who" title="About me.">Who</a></li>
+                <li><a href="#why" title="Motivation.">Why</a></li>
+                <li><a href="#what" title="Challenges.">What</a></li>
+        
+            </ul>
+    
+              
+        </nav>
+        <h3 id="who">About Me</h3>
+        
+        <h2> Salomon Laleye</h2>
+       
+        <ul class="facts">
+            <li>Current | Student, Msc Computer Science, Saarland University.</li>
+            <li>From | Bamako, Mali.</li>
+            <li>Dev | PHP, HTML, CSS, JS.</li>
+            <li>Speak | French C1, English C1, German A2.</li>
+            
+        </ul>
+        
+    
+        <h3 id="#why">My Motivations</h3>
+        <p>I have been working with websites mostly <mark>PHP</mark> for a very long time already during my studies. I have developed sites with <mark>Laravel 5</mark>, explored <mark>REST APIs</mark> using frameworks such as  Lumen and Slim v2.<br><br>I am familiar with the basic web dev stack, as I have worked as a <i>full stack web developer</i> for several entrepreneurial projects. <br><br>
+            Besides web development, I have also ventured in mobile dev, my bachelor projects was on Android and I have studied mobile security during a semester at Saarland University.<br><br>As consequence, I would like to <mark>further my knowledge</mark> of web development for enterprises  and  latest technologies like the Progressive Web apps, and instant apps developed by Google. I believe the Summer School is an excellent opportunity for me to <mark>meet new people</mark> and <mark>learn</mark> from each other.
+        </p>
+
+
+        <h3 id="what">My Challenges</h3>
+        <p>One of the biggest challenge I have face and keep facing, is building applications that keep the user browsing it, signing up and using it consistently. <mark><em>User retention</em></mark> is quite hard, if you don’t understand the UX concepts, that is why I have enrolled into couple of online courses I try to follow between my lectures and exams. <br><br>
+
+            Additionally, I haven’t worked with that many projects, but I find it hard usually to get accurate location data  based on what user was typing, I was not importing packages. I find it hard to implement those  functionalities that <mark>automatically generate new data based on user input</mark>.<br><br> For example when the user inputs a car make and you have to fetch queries in the database of all the cars that are currently available and send again a new request based on the selected output.<br><br>  I had to figure out the complex <mark>SQL queries</mark> with many tables involved, also how to send the request, <mark>Ajax</mark>, parsing the <mark>JSON</mark> result and finally displaying all that neatly. Nowadays, with Laravel I usually just get projects from Composer whenever I can.
+        </p>
+
+        <aside>
+            <p>References :
+                <a title="Linkedin" target="_blank" href="https://www.linkedin.com/in/slaleye">Linkedin</a>
+                <a title="Portfolio"  target="_blank"  href="http://slaleye.com/">Portfolio</a>
+                <a  title="Blog"  target="_blank" href="https://nistcompliance.blogspot.com/">Blog</a>
+            </p>
+        </aside>
+        </div>
+	</body>
+</html>
