@@ -1,0 +1,550 @@
+body{
+	padding: 0;
+	margin: 0;
+	opacity: 0;
+	
+	width: 100vw;
+	height: 100vh;
+
+	background: no-repeat linear-gradient(to top, rgba(0,0,0,0) , rgba(255,255,255,1)), url(img/back.jpg);
+}
+
+#resume_link{
+	border: 1px solid white;
+	color: white;
+}
+
+#pixel-bubble_part1 {
+
+  visibility: visible;
+
+  width: 39%;
+  height: 48%;
+
+  position: absolute;
+  top: 5%;
+  left: 28%;
+
+  z-index: 3;
+
+}
+
+#pixel-bubble_part2 {
+
+  visibility: hidden;
+
+	width: 39%;
+	height: 48%;
+
+	position: absolute;
+	top: 5%;
+	left: 28%;
+
+	z-index: 2;
+
+}
+
+#pixel-bubble_part3 {
+
+  visibility: hidden;
+
+  width: 39%;
+  height: 48%;
+
+  position: absolute;
+  top: 5%;
+  left: 28%;
+
+  z-index: 2;
+
+}
+
+#pixel-cloud{
+  	height: 5%;
+  	width: 5%;
+  	animation: clouds 270s infinite;
+	-moz-animation: clouds 270s infinite;
+	-webkit-animation: clouds 270s infinite;
+	-o-animation: clouds 270s infinite;
+	position: relative;
+	right: 9%;
+}
+
+#pixel-cloud2{
+	height: 5%;
+  	width: 5%;
+  	animation: clouds 270s infinite;
+	-moz-animation: clouds 270s infinite;
+	-webkit-animation: clouds 270s infinite;
+	-o-animation: clouds 270s infinite;
+	position: relative;
+	right: 20%;
+	top: 10%;
+}
+
+#pixel-cloud3{
+	height: 5%;
+  	width: 6%;
+  	animation: clouds 270s infinite;
+	-moz-animation: clouds 270s infinite;
+	-webkit-animation: clouds 270s infinite;
+	-o-animation: clouds 270s infinite;	position: relative;
+	right: 50%;
+	top: 7%;
+}
+
+#pixel-cloud4{
+  	height: 7%;
+  	width: 6%;
+  	animation: clouds 270s infinite;
+	-moz-animation: clouds 270s infinite;
+	-webkit-animation: clouds 270s infinite;
+	-o-animation: clouds 270s infinite;	position: relative;
+	right: 60%;
+}
+
+#pixel-cloud5{
+	height: 6%;
+  	width: 6%;
+  	animation: clouds 270s infinite;
+	-moz-animation: clouds 270s infinite;
+	-webkit-animation: clouds 270s infinite;
+	-o-animation: clouds 270s infinite;	position: relative;
+	right: 80%;
+	top: 22%;
+}
+
+#pixel-cloud6{
+	height: 7%;
+  	width: 5%;
+  	animation: clouds 270s infinite;
+	-moz-animation: clouds 270s infinite;
+	-webkit-animation: clouds 270s infinite;
+	-o-animation: clouds 270s infinite;	position: relative;
+	right: 105%;
+	top: 10%;
+}
+
+
+
+#pixel-bird_0{
+	animation: 1s infinite, birds-movement 270s infinite;
+  -webkit-animation: 1s infinite,birds-movement 270s infinite;
+  -webkit-backface-visibility: hidden;
+  -moz-animation: 1s infinite, birds-movement 270s infinite;
+  -o-animation: 1s infinite, birds-movement 270s infinite;
+
+  width: 4%;
+  height: 4%;
+
+  position: absolute;
+  top: 13%;
+  left: -6%;
+}
+
+#pixel-bird_1{
+	animation: 1s infinite, birds-movement 270s infinite;
+  -webkit-animation: 1s infinite,birds-movement 270s infinite;
+  -webkit-backface-visibility: hidden;
+  -moz-animation: 1s infinite, birds-movement 270s infinite;
+  -o-animation: 1s infinite, birds-movement 270s infinite;
+
+  width: 4%;
+  height: 4%;
+  
+  position: absolute;
+  top: 13%;
+  left: -6%;
+}
+
+#pixel-bird2_0{
+
+	width: 4%;
+	height: 4%;
+   animation: 1s linear infinite , birds-movement 250s infinite;
+  -webkit-animation:  1s linear infinite, birds-movement 250s infinite;
+  -webkit-backface-visibility: hidden;
+  -moz-animation:  1s infinite, birds-movement 250s infinite;
+  -o-animation:  1s infinite, birds-movement 250s infinite;
+  position: absolute;
+  left: -20%;
+  top: 5%;
+}
+
+#pixel-bird2_1{
+
+	width: 4%;
+	height: 4%;
+   animation: 1s linear infinite , birds-movement 250s infinite;
+  -webkit-animation:  1s linear infinite, birds-movement 250s infinite;
+  -webkit-backface-visibility: hidden;
+  -moz-animation:  1s infinite, birds-movement 250s infinite;
+  -o-animation:  1s infinite, birds-movement 250s infinite;
+  position: absolute;
+  left: -20%;
+  top: 5%;
+}
+
+/* AVATAR */
+
+#part0{
+
+  width: 28%; height: 60%; position: absolute; left: 65%; top: 32%;
+}
+
+
+#part1{
+
+  width: 28%; height: 60%; position: absolute; left: 65%; top: 32%;
+}
+
+
+#part2{
+
+  width: 28%; height: 60%; position: absolute; left: 65%; top: 32%;
+}
+
+
+#part3{
+
+  width: 28%; height: 60%; position: absolute; left: 65%; top: 32%;
+}
+
+
+#part4{
+
+  width: 28%; height: 60%; position: absolute; left: 65%; top: 32%;
+}
+
+
+#part5{
+
+  width: 28%; height: 60%; position: absolute; left: 65%; top: 32%;
+}
+
+
+#part6{
+
+  width: 28%; height: 60%; position: absolute; left: 65%; top: 32%;
+}
+
+#final{
+
+  width: 28%; height: 60%; position: absolute; left: 65%; top: 32%;
+
+	visibility: hidden;
+	animation: 3s ease-in-out 0s normal none infinite superman;
+	animation-delay: 2s;
+  -webkit-animation: 3s ease-in-out 0s normal none infinite superman;
+  -webkit-animation-delay: 2s;
+  -webkit-backface-visibility: hidden;
+  -moz-animation: 3s ease-in-out 0s normal none infinite  superman;
+  -moz-animation-delay: 2s;
+  -o-animation: 3s ease-in-out 0s normal none infinite superman;
+  -o-animation-delay: 2s;
+}
+
+
+#shadow{
+
+	width: 22%;
+	height: 2%;
+
+  -webkit-animation: 3s ease-in-out 0s normal none infinite superman_shadow;
+    -webkit-animation-delay: 2s;
+   -moz-animation: 3s ease-in-out 0s normal none infinite superman_shadow;
+     -moz-animation-delay: 2s;
+  -o-animation: 3s ease-in-out 0s normal none infinite superman_shadow;
+    -o-animation-delay: 2s;
+
+  animation: 3s infinite superman_shadow;
+  animation-delay: 2s;
+
+  background: none repeat scroll 0 0 #000000;
+  border-radius: 50%;
+  content: "";
+  opacity: 0.2;
+
+  position: absolute;
+  left: 70%;
+  top: 95%;
+}
+
+#start{
+
+  width: 28%;
+  height: 6%;
+
+  position: absolute;
+  left: 34.5%;
+  top: 60%;
+}
+
+#resumeSelect{
+
+
+  width: 28%;
+  height: 6%;
+
+  position: absolute;
+  left: 34.5%;
+  top: 70%;
+}
+
+
+#quitgame{
+
+  width: 28%;
+  height: 6%;
+
+  position: absolute;
+  left: 34.5%;
+  top: 80%;
+}
+
+#game-manual{
+
+	width: 28%;
+	height: 2%;
+
+	position: absolute;
+	left: 34.45%;
+	top: 90%;
+
+	color: black;
+}
+
+#game-manual p{
+
+	font-size: 0.85vw;
+}
+
+#linkedin{
+  width: 4%;
+  height: 7%;
+
+  position: absolute;
+  top: 90%;
+  left: 1%;
+}
+
+#linkedin:hover{
+  -webkit-animation: shake 0.5s;
+  -moz-animation: shake 0.5s;
+  -o-animation: shake 0.5s;
+  animation: shake 0.5s;
+}
+
+#facebook{	
+  width: 4%;
+  height: 7%;
+
+  position: absolute;
+  top: 90%;
+  left: 5.5%;
+
+}
+
+#facebook:hover{
+  -webkit-animation: shake 0.5s;
+  -moz-animation: shake 0.5s;
+  -o-animation: shake 0.5s;
+  animation: shake 0.5s;
+}
+
+#github {
+  width: 4.5%;
+  height: 7%;
+
+  position: absolute;
+  top: 90%;
+  left: 10%;
+}
+
+#github:hover{
+  -webkit-animation: shake 0.5s;
+  -moz-animation: shake 0.5s;
+  -o-animation: shake 0.5s;
+  animation: shake 0.5s;
+}
+
+#dark_screen{
+
+  position: absolute;
+  display: none;
+  z-index: 3;
+  top:0%;
+
+  width: 100vw;
+  height: 100vh;
+
+  background: black;
+}
+
+#white_screen{
+
+  background: white;
+  position: absolute;
+  display: none;
+  top: 0%;
+  z-index: 4;
+
+  width: 100vw;
+  height: 100vh;
+
+}
+
+#loading_screen{
+
+  background: black;
+  width: 100vw;
+  height: 100vh;
+
+  position: absolute;
+  top: 0%;
+  z-index: 3;
+
+  display: none;
+}
+
+#loading_box{
+
+  border: 2px solid white;
+
+  width: 50%;
+  height: 5%;
+
+  position: absolute;
+  z-index: 4;
+
+  display: none;
+
+  top: 40%;
+  left: 27%;
+}
+
+#loading_box_fill{
+
+  background: white;
+
+  width: 0%;
+  height: 100%;
+
+  position: absolute;
+  z-index: 5;
+
+  display: none;
+
+}
+
+#loading_message{
+
+  width: 40%;
+  height: 15%;
+
+  position: absolute;
+  top: 20%;
+  left: 30%;
+
+}
+
+/* KEYFRAME ANIMATIONS */
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+@keyframes clouds {
+  100% {transform: translateX(+2300px); }
+}
+
+@keyframes birds-movement {
+  100% {transform: translateX(+4000px); }
+}
+
+
+
+@keyframes birds2 {
+0%, 50%{
+  box-shadow:  27px 6px 0 #9ee07a, 30px 6px 0 #9ee07a, 33px 6px 0 #9ee07a, 24px 9px 0 #9ee07a, 27px 9px 0 #000000, 30px 9px 0 #000000, 33px 9px 0 #9ee07a, 36px 9px 0 #9ee07a, 39px 9px 0 #9ee07a, 27px 12px 0 #9ee07a, 30px 12px 0 #000000, 33px 12px 0 #000000, 36px 12px 0 #000000, 39px 12px 0 #9ee07a, 42px 12px 0 #9ee07a, 45px 12px 0 #9ee07a, 30px 15px 0 #9ee07a, 33px 15px 0 #9ee07a, 36px 15px 0 #000000, 39px 15px 0 #000000, 42px 15px 0 #000000, 45px 15px 0 #000000, 48px 15px 0 #9ee07a, 54px 15px 0 #9ee07a, 57px 15px 0 #9ee07a, 60px 15px 0 #ff9800, 63px 15px 0 #ff9800, 66px 15px 0 #ff9800, 69px 15px 0 #ff9800, 36px 18px 0 #9ee07a, 39px 18px 0 #000000, 42px 18px 0 #000000, 45px 18px 0 #000000, 48px 18px 0 #9ee07a, 51px 18px 0 #9ee07a, 54px 18px 0 #9ee07a, 57px 18px 0 #9ee07a, 60px 18px 0 #000000, 63px 18px 0 #9ee07a, 66px 18px 0 #ffffff, 69px 18px 0 #9ee07a, 72px 18px 0 #ff9800, 36px 21px 0 #9ee07a, 39px 21px 0 #9ee07a, 42px 21px 0 #000000, 45px 21px 0 #000000, 48px 21px 0 #000000, 51px 21px 0 #000000, 54px 21px 0 #000000, 57px 21px 0 #000000, 60px 21px 0 #9ee07a, 63px 21px 0 #ffffff, 66px 21px 0 #000000, 69px 21px 0 #ffffff, 72px 21px 0 #9ee07a, 30px 24px 0 #9ee07a, 33px 24px 0 #9ee07a, 36px 24px 0 #9ee07a, 39px 24px 0 #9ee07a, 42px 24px 0 #9ee07a, 45px 24px 0 #000000, 48px 24px 0 #000000, 51px 24px 0 #000000, 54px 24px 0 #000000, 57px 24px 0 #000000, 60px 24px 0 #9ee07a, 63px 24px 0 #9ee07a, 66px 24px 0 #ffffff, 69px 24px 0 #9ee07a, 72px 24px 0 #000000, 75px 24px 0 #383939, 18px 27px 0 #ffeb3b, 21px 27px 0 #ffeb3b, 24px 27px 0 #ffc107, 27px 27px 0 #ffc107, 30px 27px 0 #ffc107, 33px 27px 0 #ffc107, 36px 27px 0 #9ee07a, 39px 27px 0 #000000, 42px 27px 0 #000000, 45px 27px 0 #000000, 48px 27px 0 #000000, 51px 27px 0 #000000, 54px 27px 0 #000000, 57px 27px 0 #000000, 60px 27px 0 #000000, 63px 27px 0 #9ee07a, 66px 27px 0 #9ee07a, 69px 27px 0 #000000, 72px 27px 0 #000000, 75px 27px 0 #383939, 27px 30px 0 #000000, 30px 30px 0 #000000, 33px 30px 0 #000000, 36px 30px 0 #000000, 39px 30px 0 #000000, 42px 30px 0 #000000, 45px 30px 0 #000000, 48px 30px 0 #000000, 51px 30px 0 #000000, 54px 30px 0 #000000, 57px 30px 0 #000000, 60px 30px 0 #000000, 63px 30px 0 #4caf50, 66px 30px 0 #4caf50, 75px 30px 0 #000000, 24px 33px 0 #795548, 27px 33px 0 #795548, 30px 33px 0 #795548, 33px 33px 0 #795548, 36px 33px 0 #4caf50, 39px 33px 0 #4caf50, 42px 33px 0 #4caf50, 45px 33px 0 #000000, 48px 33px 0 #000000, 51px 33px 0 #000000, 54px 33px 0 #000000, 57px 33px 0 #4caf50, 60px 33px 0 #4caf50, 45px 36px 0 #4caf50, 48px 36px 0 #4caf50, 51px 36px 0 #4caf50, 54px 36px 0 #4caf50;height: 3px; width: 3px;
+  }
+50.01%, 100%{
+  box-shadow:  48px 15px 0 #9ee07a, 51px 15px 0 #9ee07a, 54px 15px 0 #9ee07a, 57px 15px 0 #9ee07a, 60px 15px 0 #ff9800, 63px 15px 0 #ff9800, 66px 15px 0 #ff9800, 69px 15px 0 #ff9800, 39px 18px 0 #9ee07a, 42px 18px 0 #9ee07a, 45px 18px 0 #9ee07a, 48px 18px 0 #000000, 51px 18px 0 #000000, 54px 18px 0 #000000, 57px 18px 0 #000000, 60px 18px 0 #000000, 63px 18px 0 #9ee07a, 66px 18px 0 #ffffff, 69px 18px 0 #9ee07a, 72px 18px 0 #ff9800, 36px 21px 0 #9ee07a, 39px 21px 0 #9ee07a, 42px 21px 0 #000000, 45px 21px 0 #000000, 48px 21px 0 #000000, 51px 21px 0 #000000, 54px 21px 0 #000000, 57px 21px 0 #000000, 60px 21px 0 #9ee07a, 63px 21px 0 #ffffff, 66px 21px 0 #000000, 69px 21px 0 #ffffff, 72px 21px 0 #9ee07a, 30px 24px 0 #9ee07a, 33px 24px 0 #9ee07a, 36px 24px 0 #9ee07a, 39px 24px 0 #9ee07a, 42px 24px 0 #9ee07a, 45px 24px 0 #000000, 48px 24px 0 #000000, 51px 24px 0 #000000, 54px 24px 0 #000000, 57px 24px 0 #000000, 60px 24px 0 #9ee07a, 63px 24px 0 #9ee07a, 66px 24px 0 #ffffff, 69px 24px 0 #9ee07a, 72px 24px 0 #000000, 75px 24px 0 #383939, 18px 27px 0 #ffeb3b, 21px 27px 0 #ffeb3b, 24px 27px 0 #ffeb3b, 27px 27px 0 #ffc107, 30px 27px 0 #ffc107, 33px 27px 0 #ffc107, 36px 27px 0 #9ee07a, 39px 27px 0 #000000, 42px 27px 0 #4caf50, 45px 27px 0 #000000, 48px 27px 0 #000000, 51px 27px 0 #000000, 54px 27px 0 #000000, 57px 27px 0 #000000, 60px 27px 0 #000000, 63px 27px 0 #9ee07a, 66px 27px 0 #9ee07a, 69px 27px 0 #000000, 72px 27px 0 #000000, 75px 27px 0 #383939, 27px 30px 0 #000000, 30px 30px 0 #000000, 33px 30px 0 #000000, 36px 30px 0 #000000, 39px 30px 0 #000000, 42px 30px 0 #4caf50, 45px 30px 0 #4caf50, 48px 30px 0 #000000, 51px 30px 0 #000000, 54px 30px 0 #000000, 57px 30px 0 #000000, 60px 30px 0 #000000, 63px 30px 0 #4caf50, 66px 30px 0 #4caf50, 75px 30px 0 #000000, 24px 33px 0 #795548, 27px 33px 0 #795548, 30px 33px 0 #795548, 36px 33px 0 #4caf50, 39px 33px 0 #4caf50, 42px 33px 0 #4caf50, 45px 33px 0 #9ee07a, 48px 33px 0 #9ee07a, 51px 33px 0 #000000, 54px 33px 0 #000000, 57px 33px 0 #4caf50, 60px 33px 0 #4caf50, 63px 33px 0 #9ee07a, 45px 36px 0 #4caf50, 48px 36px 0 #9ee07a, 51px 36px 0 #9ee07a, 54px 36px 0 #4caf50, 57px 36px 0 #000000, 60px 36px 0 #000000, 63px 36px 0 #9ee07a, 51px 39px 0 #9ee07a, 54px 39px 0 #9ee07a, 57px 39px 0 #000000, 60px 39px 0 #000000, 63px 39px 0 #000000, 66px 39px 0 #9ee07a, 51px 42px 0 #9ee07a, 54px 42px 0 #9ee07a, 57px 42px 0 #9ee07a, 60px 42px 0 #9ee07a, 63px 42px 0 #000000, 66px 42px 0 #000000, 69px 42px 0 #9ee07a, 60px 45px 0 #9ee07a, 63px 45px 0 #9ee07a, 66px 45px 0 #9ee07a, 69px 45px 0 #9ee07a;height: 3px; width: 3px;
+  }
+}
+
+@keyframes superman_shadow {
+  50% { transform:  scale(1); opacity:.05; }
+}
+@keyframes superman {
+  50% {transform: translateY(-20px); }
+}
+
+/*--- Chrome animation ---*/
+@-webkit-keyframes  superman {
+  50% { transform: translateY(-20px);  }
+}
+@-webkit-keyframes superman_shadow {
+  50% { transform: translateY(20px) scale(1); opacity:.05; }
+}
+
+
+
+
+/* MOBILE SIZE */
+
+
+@media (max-width: 414px){
+
+  body{
+
+    background: black;
+  }
+
+  #linkedin{
+
+    width: 6%;
+    height: 4.5%;
+  }
+
+  #facebook{
+
+    left: 8%;
+    width: 6%;
+    height: 4.5%;
+  }
+
+  #github{
+
+    left: 15% ;
+    width: 7%;
+    height: 4.5%;
+  }
+
+  #game-manual{
+
+    left: 25%;
+    top: 98%;
+    width: 50%;
+  }
+
+  #loading_message{
+
+    height: 5%;
+    top: 33%;
+
+  }
+
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>My Website</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+  
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      
+  </head>
+
+  <body id="page-top" onunload="">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" ariaiteml="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a id="questions_item" class="nav-link js-scroll-trigger"  href="#questions" >Questions</a>
+            </li>
+            <li class="nav-item">
+              <a id="contact_field" class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a id="goBack" class="nav-link js-scroll-trigger" href="file:///home/bd/summerschool2018/applications/index.html"><< Return</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="masthead">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h1 class="brand-heading">I'm Berk Dikici</h1>
+              <p class="intro-text">Computer Scientist</p>
+                <button type="button" onclick="window.location.href='https://www.facebook.com/nj.jn54'" class="btn btn-fb"><i class="fa fa-facebook left" id="fbook"></i></button>
+                <button type="button" onclick="window.location.href='https://www.linkedin.com/in/berk-dikici-91ab6b136?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Be2O%2BVALJSQKpyKcRqSEozA%3D%3D'" class="btn btn-li"><i class="fa fa-linkedin left"></i></button>
+                <button type="button" onclick="window.location.href='https://github.com/bdikici'" class="btn btn-git"><i class="fa fa-github left"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+              <img id="ben" class="img-thumbnail" src="img/me.jpeg">
+          </div>
+          <div class="col-lg-6 about_me_text">
+            <h2>About Me</h2>
+            <p>I am a Computer Science graduate from Jacobs University Bremen and living in Germany since 2003. </p>
+            <p>I enjoy creating new things, turning new and creative ideas into existence, helping people and seeing their progression. Throughout my life, adapting to various cultures, eagerness to learn more, identifying and resolving problems have been my striking features.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Answering Questions -->
+
+    <section id="questions" class="content-section" style="margin-top: 30%; margin-bottom: 12%;">
+      <div class="container text-center">
+          <h2>Questions</h2>
+        <div class="row">
+          <div id="question1"  class="col-lg-12">
+            Why do you want to be part of it?
+          </div>
+          <div class="row">
+            <div id="answer1" class="col-lg-12">
+              I think the Summer Coding School by Virtual Identity is a great opportunity for many people to learn knew things and enhance their knowledge in this field. I believe that many universities all around the world do not offer hands on practice or even teach the necessary materials. I want to be part of it in order to work on exciting project, be part of a team and improve as well as learn new web technologies.
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div id="question2"  class="col-lg-12">
+            What was the biggest challenge with a web project so far?
+          </div>
+            <div class="row">   
+              <div id="answer2"  class="col-lg-12">
+                The biggest challenge with a web project so far was to create a responsive website. The more smaller the devices get the less display area is available for the designer. Depending on the design, it can force the developers to plan a completely new design.
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container text-center">
+        <img id="letter_contact" src="img/letter0.png" onclick="letter_change(this);" style="width: 250px; height: 250px;">
+        <p>Contact Me</p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <p>Copyright &copy; Berk Dikici 2018</p>
+      </div>
+    </footer>
+
+
+    <!--PHP file-->
+    <?php inlcude 'sendEmail.php';?>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+  </body>
+
+</html>

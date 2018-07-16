@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Welcome to Berk Dikici's website</title>
+	
+	<link rel="stylesheet" type="text/css" href="wwb-style.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<!-- social media button -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body id="#pbody" onunload="">
+	
+	<!--  bubble -->
+	<img id="pixel-bubble_part1" src="img/mycloud0.png">
+	<img id="pixel-bubble_part2" src="img/mycloud.png">
+	<img id="pixel-bubble_part3" src="img/mycloud00.png">
+
+	
+	<!-- clouds -->
+	<img id="pixel-cloud" src="img/mycloud1.png">
+	<img id="pixel-cloud2" src="img/mycloud2.png">
+	<img id="pixel-cloud3" src="img/mycloud3.png">
+	<img id="pixel-cloud4" src="img/mycloud3.png">
+	<img id="pixel-cloud5" src="img/mycloud1.png">
+	<img id="pixel-cloud6" src="img/mycloud2.png">
+	
+
+	<img id="start" src="img/start0.png" onclick="loading();" onmouseover="Starthover(this);" onmouseout="Startunhover(this);">
+	<img id="resumeSelect" src="img/resume0.png" onclick="alert('Please contact me via email if interested by pressing the START button')" onmouseover="hover(this);" onmouseout="unhover(this);">
+	<img id="quitgame" src="img/quit0.png" onclick="" onmouseover="QuitHover(this);" onmouseout="QuitUnHover(this);">
+
+	<img id="game-manual" src="img/manual.png">
+
+	<!-- birds -->
+	<img id="pixel-bird_0" src="img/mybird1.png">
+	<img id="pixel-bird_1" src="img/mybird2.png">
+	<img id="pixel-bird2_0" src="img/mybird3.png">
+	<img id="pixel-bird2_1" src="img/mybird4.png">
+
+	<!-- avatar -->
+	<img id="part0" src="img/myavatar.png">
+	<img id="part1" src="img/myavatar1.png">
+	<img id="part2" src="img/myavatar2.png">
+	<img id="part3" src="img/myavatar3.png">
+	<img id="part4" src="img/myavatar4.png">
+	<img id="part5" src="img/myavatar5.png">
+	<img id="part6" src="img/myavatar6.png">
+	<img id="final" src="img/myavatar.png">
+	<div id="shadow"></div>
+
+	<!-- social media -->
+	<img id="facebook" src="img/fb.png" onclick="fb_link();">
+	<img id="linkedin" src="img/linkedin.png" onclick="linkedin_link();">
+	<img id="github" src="img/git.png" onclick="git_link();">
+
+	<!-- TV off -->
+	<div id="dark_screen"></div>
+	<div id="white_screen"></div>
+
+	<!-- Loading screen -->	
+	<div id="loading_screen">
+		<img id="loading_message" src="img/homepage_message.png">
+		<div id="loading_box">
+			<div id="loading_box_fill"></div>
+		</div>
+	</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="web-action.js"></script>
+
+</body>
+</html>
