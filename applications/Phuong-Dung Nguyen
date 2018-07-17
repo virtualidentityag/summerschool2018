@@ -1,0 +1,148 @@
+p,
+h2,
+h3{
+	font-family: Lato, sans-serif;
+}
+
+h3{
+	color: rgb(0, 191, 255);
+}
+
+body, 
+html {
+	height: 100%;
+}
+
+.parallax{
+			background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--H2epPLwO--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://memegenerator.net/img/instances/64093317/horrible-code-horrible-code-everywhere.jpg);
+			min-height: 700px;
+			margin-left: 0;
+			margin-right: 0;
+
+			position: relative;
+			opacity: 0.95;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+.parallax2{
+			background-image: url(https://i.pinimg.com/originals/86/5f/e4/865fe4e71a89acc1330787cfc6b46e42.jpg);
+			min-height: 700px;
+			margin-left: 0;
+			margin-right: 0;
+
+			position: relative;
+			opacity: 0.95;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+}
+
+.parallax3{
+			background-image: url(http://i.memeful.com/memes/ROqLY5w/Epic-Jackie-Chan.jpg);
+			min-height: 700px;
+			margin-left: 0;
+			margin-right: 0;
+
+			position: relative;
+			opacity: 0.95;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+}
+
+.parallax4{
+	background-image: url(https://media.makeameme.org/created/change-one-line.jpg);
+	min-height: 700px;
+			margin-left: 0;
+			margin-right: 0;
+
+			position: relative;
+			opacity: 0.95;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+}
+
+
+.title{
+	position: ;
+	/*left = 0*/
+	margin-left = 0;
+	margin-right = 0;
+	top = 50%;
+	width: 98,5%;
+	text-align: center;
+	color:  #000;
+}
+
+.border{
+  background-color: #111;
+  color: #fff;
+  padding: 30px 65px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3,
+p{
+	letter-spacing: 2px;
+	font-size: 20px;
+	color: black;
+}
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" conten="width=device-width, initial-scale=1">
+	<head>
+		<title>Hi, my name's Yumi</title>
+		<link rel="stylesheet" type="text/css" href="werwiewas.css">
+		
+	</head>
+	<body> 
+		<div class="parallax">
+			<div class="title border">
+		<h2>Hi, my name's Yumi</h2>
+		</div>
+			</div>
+
+		<div style="color: #777; background-color: rgb(211,211,211); text-align: center; padding: 50px 80px; text-align: justify;">
+		<h3 style="text-align:center;font-size: 30px;color: #FFF;text-shadow: 1px 1px rgb(194, 198, 196);"> What's my name? </h3>
+			<p align="center"> Phuong-Dung Nguyen. <br/>But you're welcome to call me Yumi (I assume that's easier for both sides :D).  </p>
+		</div>
+		<div class="parallax2">
+</div>
+<div style="color: #777; background-color: rgb(211,211,211); text-align: center; padding: 50px 80px; text-align: justify;">
+	<h3 style="text-align: center; font-size: 30px;color: #FFF;text-shadow: 1px 1px rgb(194, 198, 196);"> Why do I want to be part of it?</h3>
+			<p> I took part in an HTML workshop (Cook&Code) a longer time ago, because I wanted to try out web development. So as time passed, I started HTML and CSS lessons on Codecademy. Unfortunately I never got to start a real project (private one or due to company's task). So that's why I hope that the Summer School will help me further my knowledge and gain valuable experiences for future jobs in web development. And the most important part: Where do you ever get the chance to improve your web development skills two weeks straight and for free? :P </p>
+	</div>
+	<div class="parallax3">
+	</div>
+			<div style="color: #777; background-color: rgb(211,211,211); text-align: center; padding: 50px 80px; text-align: justify;">
+			<h3 style="text-align: center;font-size: 30px; color: #FFF;text-shadow: 1px 1px rgb(194, 198, 196);"> What was your biggest challenge with a web project so far?</h3>
+			<p> As this is basically my real first website (excluding the ones from the workshops), I'm just able to tell what problems I had with my first time building this website. When it came to "effects" like scrolling/parallax, it turned out to be more challenging than expected. But the first results when something's (finally after decades) showing, it makes pretty much up for the time you invested in it. Although I have basic knowledge in HTML, CSS, Java and Python, the small details like adjusting the title to the background width is way more time-consuming and nerve-wrecking than expected but I saw it as a challenge that I halfway elegantly solved.</p>
+		</div>
+	<div class="parallax4">
+	</div>
+			<div style="color: #777; background-color: rgb(171, 173, 172); text-align: center; padding: 10px 10px; text-align: center;">
+	<p style="font-size: 10px;">Source: # Cover 1: https://res.cloudinary.com/practicaldev/image/fetch/s--H2epPLwO--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://memegenerator.net/img/instances/64093317/horrible-code-horrible-code-everywhere.jpg
+		<br/># Cover 2: https://i.pinimg.com/originals/86/5f/e4/865fe4e71a89acc1330787cfc6b46e42.jpg
+		<br/># Cover 3: http://i.memeful.com/memes/ROqLY5w/Epic-Jackie-Chan.jpg
+		<br/># Cover 4: https://media.makeameme.org/created/change-one-line.jpg</p>
+</div>
+	</body>
+</html>
+
