@@ -29,28 +29,28 @@ Feel free to implement your application page any way you like, using HTML, CSS a
 3. Make a pull request with your application folder.
 We will merge your pull request as soon as we receive your CV.
 
-Please send your application until __July 27th 2018__.
+Please send your application until __August 10th 2018__.
 
-We will get in touch with you via e-mail until __July 31st 2018__ to confirm your participation.
+We will get in touch with you via e-mail until __August 15th 2018__ to confirm your participation.
 
 ## Organizers
 If you have any questions feel free to contact us:
 
 E-mail: summerschool@virtual-identity.com
 
-Marc Emmanuel  
-marc.wissler@virtual-identity.com  
-https://github.com/SheepFromHeaven  
-https://www.linkedin.com/in/marc-emmanuel/  
+Marc Emmanuel
+marc.emmanuel@virtual-identity.com
+https://github.com/SheepFromHeaven
+https://www.linkedin.com/in/marc-emmanuel/
 
-Ralf Hafner  
-ralf.hafner@virtual-identity.com  
+Ralf Hafner
+ralf.hafner@virtual-identity.com
 https://github.com/rhafner
-https://www.xing.com/profile/Ralf_Hafner8/cv  
+https://www.xing.com/profile/Ralf_Hafner8/cv
 
-Sergio Vidangos  
-sergio.vidangos@virtual-identity.com  
+Sergio Vidangos
+sergio.vidangos@virtual-identity.com
 
-Jessica Greth  
-Phone: +49 (0) 761 207 58 439  
-https://www.linkedin.com/in/jessica-catherine-greth-02797030/  
+Jessica Greth
+Phone: +49 (0) 761 207 58 439
+https://www.linkedin.com/in/jessica-catherine-greth-02797030/
