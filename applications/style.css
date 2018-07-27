@@ -1,0 +1,87 @@
+
+html { 
+  background: url(img/rohit.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Helvetica Neue', sans-serif;
+  line-height: 50px;
+  text-align: justify-all;
+
+}
+
+h1{
+	text-align: center;
+	font-weight: 120;
+	font-size: 50px;
+
+}
+h4{
+	text-align: center;
+	line-height: normal;
+	font-weight: 80;
+	font-size: 25px;
+}
+h5{
+	text-align: center;
+	line-height: normal;
+	font-weight: 80;
+	font-size: 15px;
+
+}
+
+p{
+	text-align: center;
+}
+.pro-box{
+	width: 600px;
+	height: 1150px;
+	background: rgba(0,0,0,0.4);
+	padding: 40px;
+	color: white;
+	margin:0 auto;
+
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: justify;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+button:hover, a:hover {
+  opacity: 0.4;
+}
+
+.button{
+	margin: 10px auto;
+	top: -40px;
+    background-color: #2F4F4F;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+}
+
+.button:hover {
+    background-color: #2F4F4F;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
