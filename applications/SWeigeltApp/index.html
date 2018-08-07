@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sebastian Weigelt</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon.png" sizes="96x96">
+
+
+    <!-- extern -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- intern -->
+    <link rel="stylesheet" href="timeline.css" type="text/css"/>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="menu.css" type="text/css"/>
+
+    <script src="script.js"></script>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="backgroundvideo.mp4" type="video/mp4">
+        <source src="backgroundvideo.webm" type="video/webm">
+        <source src="backgroundvideo.Ogg" type="video/ogg">
+        Your browser does not support HTML5 video.
+    </video>
+    <audio controls volume="0.5" autoplay loop id="myAudio">
+        <source type="audio/mpeg" src="UrbanTimelapse.mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <header>
+        <!-- Navigation -->
+        <nav>
+            <!-- The overlay -->
+            <div id="myNav" class="overlay">
+
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <!-- Overlay content -->
+                <div id="menuLinks" class="overlay-content">
+                    <a href="#whoami" onclick="closeNav();fade('whoami');">Who am I</a>
+                    <a href="#ilike" onclick="closeNav();fade('ilike');">Why I want to be a Part of It</a>
+                    <a href="#challenge" onclick="closeNav();fade('challenge');">My biggest Challenge</a>
+                    <a href="#timeline" onclick="closeNav();fade('timeline');">My Timeline</a>
+                    <a href="#skills" onclick="closeNav();fade('skills');">My Skills</a>
+                    <br>
+                    <br>
+                    <a id="online" href="http://summerschool.bastiweigelt.de" onclick="closeNav();" target="_blank">summerschool.bastiweigel.de</a>
+                </div>
+            </div>
+
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <span id="btn-open" onclick="openNav()" class="glyphicon glyphicon-th-large btn-lg"></span>
+        </nav>
+    </header>
+    <main>
+        <section id="whoami" class="container-fluid">
+            <div class="content">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1>Who am I</h1>
+                    </div>
+                </div>
+                <div class="row col-xs-12">
+                    <img src="applicationphoto.png" alt="applicationphoto">
+                    <div>
+                        <p><i class="fas fa-user fa-2x"></i>Sebastian Weigelt</p>
+                        <p><i class="fas fa-birthday-cake fa-2x"></i>17 June 1989</p>
+                        <p><i class="fas fa-user-graduate fa-2x"></i>Media Computer Science (B.Sc.)</p>
+                        <p><i class="far fa-comments fa-2x"></i>German, English</p>
+                        <p><i class="fab fa-font-awesome-flag fa-2x"></i>German</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="displayNone" id="ilike">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Why I want to be a Part of It</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 content-panel">
+                    <p>
+                        Like I wrote at the CV, programming is my passion.<br>
+                        So, why I want to be a part of it?<br>
+                        I would meet other persons with the same interest. Programming.<br>
+                        We could share our pre-existing knowledge and experiences.<br>
+                        We would learn together very interesting features.<br>
+                        After the summer school, I would be smarter.<br>
+                        That's why I want to be a part of it.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="displayNone" id="challenge">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>My biggest Challenge</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 content-panel">
+                    <p>
+                        My biggest challenge was to design a layout for a website.<br>
+                        I work as a volunteer for a registered society which organised concerts and cinema shows.<br>
+                        The boss of the society asked me if I could develop a website.<br>
+                        I said yes then I like it to program websites and other applications.<br>
+                        So, before I began to program I designed a layout.<br>
+                        I can work with colors and shapes but my strength is programming.<br>
+                        I cogitated me which colors and shapes are the bests.<br>
+                        As the layout was finished I showed this my boss.<br>
+                        I programed the website and at the end my boss was happy. :-)
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="timeline" class="displayNone container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>My Timeline</h1>
+                </div>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Integrated Degree Program (B.Sc.)</h4>
+                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> since 09/2017</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                <i class="anfuehrungszeichen">»</i> Degree Course <i class="anfuehrungszeichen">«</i>
+                                <br>
+                                media informatics
+                            </p>
+                            <p>
+                                <i class="anfuehrungszeichen">»</i> University <i class="anfuehrungszeichen">«</i>
+                                <br>
+                                Hochschule RheinMain, Wiesbaden
+                            </p>
+                            <p>
+                                <i class="anfuehrungszeichen">»</i> Company <i class="anfuehrungszeichen">«</i>
+                                <br>
+                                3st digital GmbH, Mainz
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Vocational Training</h4>
+                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 08/2016 - 08/2017</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                <i class="anfuehrungszeichen">»</i> Occupation <i class="anfuehrungszeichen">«</i>
+                                <br>
+                                computer science expert in software development
+                            </p>
+                            <p>
+                                <i class="anfuehrungszeichen">»</i> Company <i class="anfuehrungszeichen">«</i>
+                                <br>
+                                Beltz Bad Langensalza GmbH, Bad Langensalza
+                            </p>
+                            <p>
+                                <i class="anfuehrungszeichen">»</i> Information <i class="anfuehrungszeichen">«</i>
+                                <br>
+                                continuation and finishing of the
+                                vocational training
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Vocational Training</h4>
+                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 08/2014 - 07/2016</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                <i class="anfuehrungszeichen">»</i> Occupation <i class="anfuehrungszeichen">«</i>
+                                <br>
+                                computer science expert in software development
+                            </p>
+                            <p>
+                                <i class="anfuehrungszeichen">»</i> Company <i class="anfuehrungszeichen">«</i>
+                                <br>
+                                PROFIL PR und Werbeagentur GmbH, Erfurt
+                            </p>
+                            <p>
+                                <i class="anfuehrungszeichen">»</i> Information <i class="anfuehrungszeichen">«</i>
+                                <br>
+                                change company through closing down of the Company
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Seeking Education</h4>
+                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 09/2013 - 07/2014</small></p>
+                        </div>
+                        <div class="timeline-body">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Study (B.Sc.)</h4>
+                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 10/2010 - 08/2013</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                <i class="anfuehrungszeichen">»</i> Degree Course <i class="anfuehrungszeichen">«</i>
+                                <br>
+                                media technology
+                            </p>
+                            <p>
+                                <i class="anfuehrungszeichen">»</i> University <i class="anfuehrungszeichen">«</i>
+                                <br>
+                                Hochschule RheinMain, Wiesbaden
+                            </p>
+                            <p>
+                                <i class="anfuehrungszeichen">»</i> Information <i class="anfuehrungszeichen">«</i>
+                                <br>
+                                cancelled
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Voluntary Social Year</h4>
+                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 09/2009 - 08/2010</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                <i class="anfuehrungszeichen">»</i> Registered Society <i class="anfuehrungszeichen">«</i>
+                                <br>
+                                Walhalla e.V., Wiesbaden
+                            </p>
+                            <p>
+                                <i class="anfuehrungszeichen">»</i> Area of Activities <i class="anfuehrungszeichen">«</i>
+                                <br>
+                                guide events, sound engineer, cashier .....
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">In-Service and Educational Training</h4>
+                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 08/2006 - 08/2009</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>
+                                <i class="anfuehrungszeichen">»</i> Occupation <i class="anfuehrungszeichen">«</i>
+                                <br>
+                                media technology assistant
+                            </p>
+                            <p>
+                                <i class="anfuehrungszeichen">»</i> Vocational School <i class="anfuehrungszeichen">«</i>
+                                <br>
+                                AUCOTEAM GmbH, Berlin
+                            </p>
+                            <p>
+                                <i class="anfuehrungszeichen">»</i> Informations <i class="anfuehrungszeichen">«</i>
+                                <br>
+                                in-service training for a subject-related eligibility of university admission
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="skills" class="displayNone container-fluid">
+            <div class="content">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1>Skills</h1>
+                    </div>
+                </div>
+                <!--<div id="skillsIcon" class="test" w3-include-html="skills.html"></div>-->
+                <!-- Gestaltungssprachen -->
+                <div class="row center">
+                    <div class="col-xs-5 col-sm-3 col-lg-2">
+                        <img src="svg/html.svg">
+                    </div>
+                    <div class="col-xs-5 col-sm-3 col-lg-2">
+                        <img src="svg/css3.svg">
+                    </div>
+                    <div class="col-xs-5 col-sm-3 col-lg-2">
+                        <img src="svg/less.svg">
+                    </div>
+                    <div class="col-xs-5 col-sm-3 col-lg-2">
+                        <img src="svg/sass.svg">
+                    </div>
+                </div>
+
+                <!-- JS, -Frameworks und Bibliotheken -->
+                <div class="row center">
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/js.svg">
+                    </div>
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/angularjs.svg">
+                    </div>
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/bootstrap.svg">
+                    </div>
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/jquery.svg">
+                    </div>
+                </div>
+
+                <!-- Programmiersprachen -->
+                <div class="row center">
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/cplusplus.svg">
+                    </div>
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/java.svg">
+                    </div>
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/perl.svg">
+                    </div>
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/php.svg">
+                    </div>
+                </div>
+
+                <!-- Git -->
+                <div class="row center">
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/git.svg">
+                    </div>
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/gitlab.svg">
+                    </div>
+                </div>
+
+                <!-- Datenbank, Server -->
+                <div class="row center">
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/mysql.svg">
+                    </div>
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/apache.svg">
+                    </div>
+                </div>
+
+                <!-- CMS -->
+                <div class="row center">
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/wordpress.svg">
+                    </div>
+                </div>
+
+                <!-- IDEAS, Editoren -->
+                <div class="row center">
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/phpstorm.svg">
+                    </div>
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/sublimetext.svg">
+                    </div>
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/intellij.svg">
+                    </div>
+                </div>
+
+                <!-- Bildbearbeitungsprogramme -->
+                <div class="row center">
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/illustrator.svg">
+                    </div>
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/indesign.svg">
+                    </div>
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/photoshop.svg">
+                    </div>
+                </div>
+
+                <!-- Betriebssysteme -->
+                <div class="row center">
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/apple.svg">
+                    </div>
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/windows.svg">
+                    </div>
+                    <div class="col-xs-5 col-sm-3 col-md-3 col-lg-2">
+                        <img src="svg/linux.svg">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
