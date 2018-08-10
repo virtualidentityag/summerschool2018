@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="normalize.css" rel="stylesheet">
+    <link href="skeleton.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <title>Sophie Tobisch</title>
+  </head>
+  <body>
+        <div id="start">
+            <div class="container">
+                <div class="row">
+                    <div class="four columns"><h1>Sophie Tobisch</h1></div>
+                    <div class="eight columns"> 
+                            <div id="nav-mobile">
+                                <p>MENU</p>
+                                    <ul>
+                                        <li><a href="#start">Home</a></li>
+                                        <li><a href="#about">About</a></li>
+                                        <li><a href="#why">Why me?</a></li>
+                                        <li><a href="#challenge">Biggest challenge</a></li>
+                                    </ul>
+                            </div>                   
+                        <div id="nav">
+                                <ul>
+                                    <li><a href="#start">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#why">Why me?</a></li>
+                                    <li><a href="#challenge">Biggest challenge</a></li>
+                                </ul>
+                        </div> 
+                    </div>       
+                </div><!-- End Row-->
+            </div> <!-- End Container-->
+        </div> <!-- End Start-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="four columns"><h2>About Me</h2></div>
+                    <div class="eight columns">
+                       <p>
+                           I'm Sophie Tobisch from Germany. I´m interested in web development since 8th grade -
+                            when my informatics teacher showed us how to make our first hello world web-page in plain html. 
+                            After that I continued to follow my interest by having a side job in a small agency, self study 
+                            and finally the study of Online Media at the HFU, where I'll be writing my bachelor thesis in the next semester. <br>
+                            Apart from coding I love diving and photography.
+                        </p>     
+                    </div>        
+                </div><!-- End Row-->
+            </div> <!-- End Container-->
+        </div> <!-- End About-->
+        <div id="why">
+            <div class="container">
+                <div class="row">
+                    <div class="four columns"><h2>Why do I want to take part?</h2></div>
+                    <div class="eight columns">
+                           <p>I want to participate in the summer school because I like to learn new things that interest me. 
+                              I have heard of most of the things mentioned on the landing page but never actually used them in 
+                              a real project - it's time to change that and to become more fluent in these techniques. And it's always easier 
+                              to learn in a group and with the help of experts - who can gently push you in the right direction - than to learn 
+                              all alone<br>
+                              Another point is that I like to become more confident in my own abilities. I know I am not totally stupid 
+                              and I have some abilities but when it comes to 'selling' them or showing them I suddenly feel like I'm not 
+                              good enough for this job because there might occur a problem I haven't thought of yet and therefore can't solve.  <br>
+                              I also like to meet people who have the same passion as me to build helpful relationships for the future.  <br>
+                              The last reason is my bachelor thesis (which includdes coding). I am writing about AWS and headless CMS and 
+                              I feel like I could learn a lot about these things during summer school.
+                            </p>
+                    </div>        
+                </div><!-- End Row-->
+            </div> <!-- End Container-->
+        </div> <!-- End Why-->
+        <div id="challenge">
+            <div class="container">
+                <div class="row">
+                    <div class="four columns"><h2>My biggest Challenge</h2></div>
+                    <div class="eight columns">
+                       <p>
+                           My biggest challenge was probably this page. I'm currently on holiday in a hotel and the WiFi is so slow, I can't really google anything. 
+                           I wasn't aware how much I used it for all the little problems and how horrible it really is if you cannot use it at all. <br>
+                           I also like to try out new things - for e.g. this page is my first attempt at using the skeleton framework (not clever if 
+                           you can't google all its features).<br>
+                           This habit often leads to little fragments that are done totally differently from the rest of my project - also not that good.
+
+                       </p>
+                    </div>        
+                </div><!-- End Row-->
+            </div> <!-- End Container-->
+        </div> <!-- End challenge-->
+
+        <!--JAVA Script-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+        jQuery('#nav a').on( 'click', function(event) {
+            var target  = jQuery( this );
+            var element = target.attr('href');
+
+            jQuery('#nav a').removeClass('active')
+            target.addClass('active');
+
+            jQuery("body, html").animate({ 
+                scrollTop: jQuery( element ).offset().top - 0  
+            }, 800);
+        });
+        $(document).ready(function(){
+            $("#nav a").click(function(){
+                $("#nav .active").removeClass("active");
+                $(this).addClass("active");
+            });
+            $("#nav-mobile a").click(function(){
+                $("#nav-mobile .active").removeClass("active");
+                $(this).addClass("active");
+            });
+            $("#nav-mobile p").click(function(){
+                $("#nav-mobile ul").fadeToggle(1000);
+            });
+        });
+        </script>
+  </body>
+</html>
