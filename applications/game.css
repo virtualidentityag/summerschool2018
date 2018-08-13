@@ -1,0 +1,27 @@
+
+html { 
+  background: url(img/rohit.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Helvetica Neue', sans-serif;
+  line-height: 50px;
+  text-align: left;
+
+}
+h1,h3{
+  text-align: center;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: justify;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
