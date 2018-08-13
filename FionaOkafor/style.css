@@ -1,0 +1,117 @@
+
+
+:root {
+    --size: 100vw;
+}
+body{
+font-family: 'Averia Serif Libre', cursive;
+       color:#2a3f58;
+    margin:0;
+}
+#top, #bottom, #left, #right {
+background:white;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+.header-links{
+   position: absolute;
+    z-index:100;
+}
+
+
+
+.container {
+
+    position:fixed;
+    width: var(--size);
+    height:100vh;
+
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: repeat(10, var(--size));
+}
+
+.slide {
+
+    height:100vh;
+    transition: all .6s ease;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide p{
+    font-size: 1.5em;
+}
+.container button{
+ height:300px;
+opacity: 0;
+
+}
+
+
+ h2{
+font-size: 2em;
+    text-align: center;
+
+}
+.slide1{
+
+    background-color:#e6e6fa;
+
+}
+
+.slide1 h2{
+
+font-size:50px;
+    background-color:#e6e6fa;
+
+}
+.slide2{
+    background-color:#e6e6fa;
+
+
+}
+.slide3{
+ background-color:#e6e6fa;
+
+}
+
+
+
+
+.text-container{
+text-align: justify;
+        padding:0 100px 0 100px;
+
+    width:50%;
+}
+
+
+.image-container p{
+    text-align: center;
+        color:#2a3f58;
+      font-family: 'Young Serif Web';
+margin:7px;
+    font-size: 1.25em;
+}
+
+
+
+
+
+
