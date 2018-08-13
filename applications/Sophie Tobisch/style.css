@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
+
+/********************ALLGEMEIN***********************************************/
+body{
+    font-family: Ubuntu;
+    color: #272727;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1{
+    color: rgba(136, 136, 136, 1);
+    font-size:3.5rem;
+}
+
+h2{
+    font-size: 2.7rem;
+}
+
+/********************ABSCHNITTE***********************************************/
+#start {
+    padding-top: 10px;
+    background: #272727;
+}
+
+#about {
+    background:#349bff;
+    position: relative;
+}
+
+#why{
+    background: #ff6790;
+    position: relative;
+}
+
+#challenge{
+    background: #67ff34;
+    position: relative;
+}
+
+#start, #about, #why, #challenge {
+  padding: 15px;
+}
+
+#about .container, #why .container, #challenge .container {
+    background: #fff;
+    padding: 30px;
+}
+
+/********************NAVIGATION***********************************************/
+#nav ul li {
+    display: inline;
+    margin: 0 20px 0 0;
+}
+
+#nav a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.9rem;
+}
+
+#nav .active{
+    text-decoration: underline;
+}
+
+#nav {
+    display: none;
+}
+
+#nav-mobile ul{
+    display: none;
+}
+
+#nav-mobile p {
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+#nav-mobile {
+    float: right;
+}
+
+#nav-mobile a{
+    color: #fff;
+}
+
+#nav-mobile .active{
+    color: #349bff;
+}
+
+@media(min-width: 920px){
+
+    body {
+        overflow-x:hidden;
+    }    
+   
+    #nav {
+        display: block;
+    }
+
+    #nav-mobile{
+        display: none;
+    }
+
+    #start {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 7), rgba(0, 0, 0, 0.7)), url("ocean.jpg");
+        background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("ocean.jpg");
+        background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("ocean.jpg");
+        background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("ocean.jpg");
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("ocean.jpg");
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("ocean.jpg");
+    }
+
+    #start, #about, #why, #challenge {
+        height: 100vh;
+        width: 100%;
+    }
+
+    #about .container, #why .container, #challenge .container {
+        background: #fff;
+        padding: 30px;
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%,-50%);
+        box-shadow: 3px 3px #888888;
+    }
+
+    h1{
+        font-size:3rem
+    }
+
+    h2{
+        font-size: 4.3rem;
+    }
+
+}
