@@ -1,0 +1,16 @@
+body { 
+	background-color: lightgrey; 
+	margin-left: 200px; 
+	margin-right: 200px;
+}
+h1 { 
+	font-size: 1cm; 
+	padding: 15px;
+	border-left: 6px solid red;
+    background-color: Aquamarine;
+}
+p {
+    padding: 15px;
+	border-left: 6px solid green;
+    background-color: Aquamarine;
+}
