@@ -1,0 +1,51 @@
+body {
+	font-family: 'Karla', sans-serif;
+	font-size: 18px;
+}
+
+.container {
+	width: 100%;
+	max-width: 50em;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 1em 0;
+}
+
+ul li {
+	margin: 2em 0;
+	padding: 2em;
+	background-color: #c1f4be;
+	box-shadow: 0 0 10px rgba(0,0,0,.25);
+	transition: all .3333s;
+	transform: translateY(10em);
+	opacity: 0;
+}
+
+ul li:nth-child(2) {
+	transition-delay: .3333s;
+	background-color: #bcd4f2;
+}
+
+ul li:nth-child(3) {
+	transition-delay: .6666s;
+	background-color: #f2c6a2;
+}
+
+ul li.appear {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+ul li span {
+	display: block;
+	width: 100%;
+}
+
+ul li span.question {
+	font-weight: bold;
+	margin-bottom: 1em;
+}
